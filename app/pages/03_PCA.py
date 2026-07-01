@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 st.title("📉 PCA")
 
-df = pd.read_csv("../data/processed/dataset_limpio.csv")
+df = pd.read_csv("data/processed/dataset_limpio.csv")
 
 cols = ["age", "monthly_watch_time_mins", "customer_support_tickets"]
 
