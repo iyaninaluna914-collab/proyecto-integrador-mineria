@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("📁 Dataset")
 
-df = pd.read_csv("../data/processed/dataset_limpio.csv")
+df = pd.read_csv("data/processed/dataset_limpio.csv")
 
 st.subheader("Vista previa del dataset")
 st.dataframe(df.head())
