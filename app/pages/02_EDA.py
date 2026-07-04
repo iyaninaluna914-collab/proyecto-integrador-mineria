@@ -70,7 +70,7 @@ with tab1:
     col1, col2 = st.columns(2)
     
     with col1:
-        st.subheader("📌 1. UNIVARIADO - EDAD")
+        st.subheader("📌 1.  - EDAD")
         fig1, ax1 = plt.subplots(figsize=(6, 4))
         df["age"].hist(bins=20, ax=ax1, color="#4A90E2", edgecolor="white")
         ax1.set_title("Distribución de Edad", fontsize=12, fontweight='bold')
@@ -85,7 +85,7 @@ with tab1:
         """)
 
     with col2:
-        st.subheader("📌 2. UNIVARIADO - PLAN")
+        st.subheader("📌  - PLAN")
         fig2, ax2 = plt.subplots(figsize=(6, 4))
         df["subscription_plan"].value_counts().plot(
             kind="pie",
@@ -101,7 +101,7 @@ with tab1:
         st.markdown("""
         **¿Qué vemos aquí?** Esta 'tarta' o pastel nos muestra cómo se reparten los usuarios según el plan que pagan mes a mes.
         
-        **💡 Conclusión simple:** Los usuarios prefieren pagar los planes superiores (**Premium y Standard**) antes que quedarse con el plan más barato o básico.
+        **💡 Conclusión simple:** Los usuarios prefieren pagar EL PLAN BASICO antes que los planes Premium y Standard.
         """)
 
 # =========================
@@ -114,7 +114,7 @@ with tab2:
     col3, col4 = st.columns(2)
     
     with col3:
-        st.subheader("📌 3. BIVARIADO - EDAD vs USO")
+        st.subheader("📌 - EDAD vs USO")
         fig3, ax3 = plt.subplots(figsize=(6, 4))
         sns.regplot(
             data=df,
@@ -136,7 +136,7 @@ with tab2:
         """)
 
     with col4:
-        st.subheader("📌 4. BIVARIADO - EDAD PROMEDIO POR GÉNERO")
+        st.subheader("📌 4.- EDAD PROMEDIO POR GÉNERO")
         fig4, ax4 = plt.subplots(figsize=(6, 4))
         edad_genero = df.groupby("favorite_genre")["age"].mean().sort_values()
         
