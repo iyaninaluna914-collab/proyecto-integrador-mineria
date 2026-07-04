@@ -48,7 +48,7 @@ st.markdown("### 🔗 Acceso al Repositorio Oficial")
 st.write("De acuerdo con los requerimientos de la cátedra, podés revisar el código de origen y las transformaciones en el siguiente enlace público:")
 
 # Botón nativo estándar (100% seguro contra caídas)
-st.link_button("📂 Ir al Repositorio de GitHub", "https://github.com/iyaninaluna914-collab/proyecto-integrador-mineria"
+st.link_button("📂 Ir al Repositorio de GitHub", "https://github.com/iyaninaluna914-collab/proyecto-integrador-mineria")
 
 st.markdown(" ")
 st.info("💡 **Indicación:** Utilizá el panel de navegación izquierdo para explorar secuencialmente cada etapa de la defensa.")
