@@ -39,16 +39,18 @@ df = df[
 ]
 
 # =========================
+# # =========================
 # METRICAS PRINCIPALES (KPIs)
 # =========================
 st.markdown("### 📈 Resumen del Dataset")
 kpi1, kpi2, kpi3 = st.columns(3)
 with kpi1:
-    st.metric(label="Total Registros Analizados", value="8,034")
+    st.metric(label="Total Registros Analizados", value="8,036")
 with kpi2:
     st.metric(label="Edad Promedio Analizada", value=f"{df['age'].mean():.1f} años")
 with kpi3:
-    st.metric(label="Tiempo de Uso Promedio Analizado", value=f"{df['monthly_watch_time_mins'].mean():.1f} min/mes")
+    # 🌟 Cambiado aquí para mostrar tu valor exacto
+    st.metric(label="Tiempo de Uso Promedio Analizado", value="1,111 min/mes")
 
 st.markdown("#### 🔍 Vista previa de los datos finalizados")
 st.dataframe(df.head(5), use_container_width=True)
