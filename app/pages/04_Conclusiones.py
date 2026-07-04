@@ -63,4 +63,3 @@ st.markdown("---")
 # =========================
 # CIERRE FINAL
 # =========================
-st.success("🏁 Fin del proyecto. Se completaron todas las etapas: ETL, EDA y PCA de manera satisfactoria.")
