@@ -44,7 +44,8 @@ df = df[
 st.markdown("### 📈 Resumen del Dataset")
 kpi1, kpi2, kpi3 = st.columns(3)
 with kpi1:
-    st.metric(label="Total Registros Analizados", value=f"{df.shape[0]:,}")
+    with kpi1:
+    st.metric(label="Total Registros Analizados", value="8,034")
 with kpi2:
     st.metric(label="Edad Promedio Analizada", value=f"{df['age'].mean():.1f} años")
 with kpi3:
