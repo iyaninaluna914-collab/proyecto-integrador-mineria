@@ -1,0 +1,3 @@
+Paso,Descripción,Filas,Nulos,Retención (%)
+1,Dataset original cargado,8160,876,100.0
+2,Tratamiento de valores nulos y duplicados,8034,759,98.46
