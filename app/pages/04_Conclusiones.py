@@ -19,7 +19,7 @@ Este apartado resume los principales hallazgos obtenidos a lo largo del pipeline
 incluyendo ETL, análisis exploratorio (EDA) y reducción de dimensionalidad (PCA).
 """)
 
-st.markdown("---")
+st.divider()
 
 # =========================
 # SECCIÓN 1 - ETL
@@ -43,7 +43,7 @@ with col2:
     no presentan una relación lineal fuerte con la edad de los usuarios, lo que indica independencia entre estas variables.
     """)
 
-st.markdown("---")
+st.divider()
 
 # =========================
 # SECCIÓN 3 - PCA
@@ -58,8 +58,19 @@ Esto facilitó la identificación de patrones generales de consumo y posibles se
 lo que resulta útil para estrategias de recomendación y segmentación.
 """)
 
-st.markdown("---")
+st.divider()
 
 # =========================
 # CIERRE FINAL
 # =========================
+st.markdown("### 🚀 Conclusión Final")
+
+st.markdown("""
+El pipeline completo permitió transformar datos crudos en información útil,
+mejorando la calidad del análisis y facilitando la toma de decisiones basadas en datos.
+
+Cada etapa (ETL, EDA y PCA) fue clave para entender mejor el comportamiento de los usuarios.
+""")
+
+st.success("Proyecto finalizado correctamente 🎉")
+st.info("Este análisis integra ETL + EDA + PCA como flujo completo de Data Science.")
