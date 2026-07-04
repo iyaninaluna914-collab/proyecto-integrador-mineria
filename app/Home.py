@@ -21,6 +21,7 @@ with col_info1:
     st.write("• **Luna, Karina**" )
 with col_info2:
     st.markdown("### 🏫 Información Académica")
+    st.write("• ** Materia:** Mineria de Datos")
     st.write("• ** Turno:** Turno Mañana")
     st.write("• **Fecha de Entrega:** 06 de julio- 2026")
     st.write("• **Profesor:** Fernando Mubarqui")
@@ -35,7 +36,7 @@ st.markdown("### 📝 Resumen del Proyecto")
 
 st.markdown("""
 Este dashboard permite analizar el comportamiento de usuarios en una plataforma de streaming.
-Se aplica un flujo completo de ciencia de datos que incluye limpieza, análisis exploratorio (EDA)
+Se aplica un flujo completo de Mineria de datos que incluye limpieza, análisis exploratorio (EDA)
 y reducción de dimensionalidad mediante PCA, con el objetivo de identificar patrones de consumo.
 """)
 
